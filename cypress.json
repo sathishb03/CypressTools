@@ -1,0 +1,20 @@
+{
+    "chromeWebSecurity": false,
+    "defaultCommandTimeout": 10000,
+    "pageLoadTimeout": 10000,
+    "screenshotsFolder": "cypress/reports/mochareports/assets",
+    "video": true,
+    "screenshotOnRunFailure": true,
+    "reporter": "cypress-multi-reporters",
+    "reporterOptions": {
+        "reporterEnabled": "mochawesome",
+        "mochawesomeReporterOptions": {
+            "mochaFile": "cypress/results/test-results.[hash].xml",
+            "reportDir": "cypress/reports/mocha",
+            "quite": true,
+            "overwrite": false,
+            "html": false,
+            "json": true
+        }
+    }
+}
