@@ -5,16 +5,8 @@
     "screenshotsFolder": "cypress/reports/mochareports/assets",
     "video": true,
     "screenshotOnRunFailure": true,
-    "reporter": "cypress-multi-reporters",
+    "reporter": "junit",
     "reporterOptions": {
-        "reporterEnabled": "mochawesome",
-        "mochawesomeReporterOptions": {
-            "mochaFile": "cypress/results/test-results.[hash].xml",
-            "reportDir": "cypress/reports/mocha",
-            "quite": true,
-            "overwrite": false,
-            "html": false,
-            "json": true
-        }
+            "mochaFile": "results/-results.[hash].xml"
     }
 }
