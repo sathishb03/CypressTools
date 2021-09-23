@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "electron-test": "cypress-run",
-    "postelectron-test": "jrm ./results/cobined-report.xml \"./results/results-*.xml\"",
+    "postelectron-test": "jrm ./results/combined-report.xml \"./results/results-*.xml\"",
     "script-electron":"npm run electron-test || npm run postelectron-test",
     "chrome-test": "cypress run --browser chrome --headless",
     "postchrome-test": "jrm ./results/combined-report.xml \"./results/results-*.xml\"",

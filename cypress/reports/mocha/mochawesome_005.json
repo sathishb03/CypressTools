@@ -1,0 +1,127 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-09-23T20:27:00.729Z",
+    "end": "2021-09-23T20:27:03.724Z",
+    "duration": 2995,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "6e8fb59c-9027-465e-95f8-c6f0a946baaf",
+      "title": "",
+      "fullFile": "cypress/integration/TOOLS/TilteViewPort.spec.js",
+      "file": "cypress/integration/TOOLS/TilteViewPort.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "62176c3c-b064-4701-8012-92c433d8762e",
+          "title": "SUite",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "title",
+              "fullTitle": "SUite title",
+              "timedOut": null,
+              "duration": 1657,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.title().then(txt => {\n  cy.log(txt);\n});\ncy.log(cy.title());",
+              "err": {},
+              "uuid": "640d663e-3e2b-4985-9cca-8409ff09f569",
+              "parentUUID": "62176c3c-b064-4701-8012-92c433d8762e",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "viewport ",
+              "fullTitle": "SUite viewport ",
+              "timedOut": null,
+              "duration": 90,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.viewport('ipad-2', 'landscape');",
+              "err": {},
+              "uuid": "ff5f7887-8d5a-4e17-9a8a-60378091a8ec",
+              "parentUUID": "62176c3c-b064-4701-8012-92c433d8762e",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "640d663e-3e2b-4985-9cca-8409ff09f569",
+            "ff5f7887-8d5a-4e17-9a8a-60378091a8ec"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 1747,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "mochaFile": "cypress/results/test-results.[hash].xml",
+        "reportDir": "cypress/reports/mocha",
+        "quite": true,
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}
