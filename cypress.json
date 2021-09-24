@@ -7,6 +7,6 @@
     "screenshotOnRunFailure": true,
     "reporter": "junit",
     "reporterOptions": {
-            "mochaFile": "results/-results.[hash].xml"
+            "mochaFile": "results/results.[hash].xml"
     }
 }
