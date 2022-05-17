@@ -10,3 +10,4 @@ cypress/logs
 .vscode
 env
 .DS_Store
+package-lock.json 
